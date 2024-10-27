@@ -7,8 +7,9 @@ The dataset for ImageInferno includes a wide range of fashion images categorized
 
 - **Dataset Source**: [Kaggle or Internal Fashion Dataset URL]  
 - **Data Size**: ~10,000 images (targeted to 5,000 images for efficiency)  
-- **Data Format**: Images labeled with metadata such as category (e.g., tops, bottoms), style (e.g., casual, formal), and brand  
+- **Data Format**: Images labeled with metadata such as category (e.g., tops, bottoms), style (e.g., casual, formal), and brand
 
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 ## 📦 Dependencies
 
