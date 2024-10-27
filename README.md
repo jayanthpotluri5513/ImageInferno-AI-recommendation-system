@@ -2,10 +2,13 @@
 ImageInferno is an advanced AI-driven platform that delivers personalized fashion trend recommendations to users based on real-time data analysis and deep learning algorithms. It’s built to provide an engaging user experience through accurate suggestions that align with the latest fashion trends. Using advanced CNN architectures and real-time data processing, ImageInferno delivers recommendations that align with the latest fashion trends and user preferences.
 
 ## 📁 Dataset
+
 The dataset for ImageInferno includes a wide range of fashion images categorized by style, brand, and clothing type. This diversity allows the model to learn from a broad spectrum of fashion items, enhancing its recommendation accuracy.
--Dataset Source: [Kaggle or Internal Fashion Dataset URL]
--Data Size: ~10,000 images (targeted to 5,000 images for efficiency)
--Data Format: Images labeled with metadata such as category (e.g., tops, bottoms), style (e.g., casual, formal), and brand
+
+- **Dataset Source**: [Kaggle or Internal Fashion Dataset URL]  
+- **Data Size**: ~10,000 images (targeted to 5,000 images for efficiency)  
+- **Data Format**: Images labeled with metadata such as category (e.g., tops, bottoms), style (e.g., casual, formal), and brand  
+
 
 ## 📦 Dependencies
 
