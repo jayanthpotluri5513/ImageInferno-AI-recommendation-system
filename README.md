@@ -30,7 +30,9 @@ pip install tensorflow keras scikit-learn pandas numpy matplotlib seaborn
     ```
 
 - **Download the Dataset**:  
-  Download the dataset from Kaggle or the specified source. Place the images in a folder named `images` within the project directory, with metadata in `metadata.csv`.
+  Download the dataset from Kaggle or the specified source.
+  
+  https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 - **Set Up Virtual Environment (Optional)**: It’s recommended to use a virtual environment to manage dependencies.
     ```bash
@@ -82,23 +84,21 @@ pip install tensorflow keras scikit-learn pandas numpy matplotlib seaborn
     
 ## 🧩 Tech Stack
 
-**Frameworks and Libraries**:
+### Frameworks and Libraries:
+- **TensorFlow and Keras** for deep learning  
+- **Scikit-Learn** for similarity search and evaluation  
+- **Pandas and NumPy** for data processing  
+- **Matplotlib and Seaborn** for visualization  
+- **PIL (Python Imaging Library)** for image manipulation  
 
-**TensorFlow and Keras** for deep learning
-**Scikit-Learn** for similarity search and evaluation
-**Pandas and NumPy** for data processing
-**Matplotlib and Seaborn** for visualization
-**PIL (Python Imaging Library)** for image manipulation
+### Model Architecture:
+- **ResNet50 CNN** for feature extraction  
 
-**Model Architecture**:
-**ResNet50 CNN** for feature extraction
+### Recommendation Algorithm:
+- **Nearest Neighbor Search** with Euclidean Distance for similarity scoring  
 
-**Recommendation Algorithm**:
-
-**Nearest Neighbor Search** with Euclidean Distance for similarity scoring
-
-**Platform**:
-**Jupyter Notebook or Google Colab** for training and experimentation
+### Platform:
+- **Jupyter Notebook or Google Colab** for training and experimentation  
 
 
 ### 🔍 Step-by-Step Process
