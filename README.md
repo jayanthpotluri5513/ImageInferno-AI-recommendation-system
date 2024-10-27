@@ -8,13 +8,14 @@ The dataset for ImageInferno includes a wide range of fashion images categorized
 -Data Format: Images labeled with metadata such as category (e.g., tops, bottoms), style (e.g., casual, formal), and brand
 
 ## 📦 Dependencies
+
 Ensure the following dependencies are installed:
 
-1.TensorFlow: Deep learning framework
-2.Keras: Simplifies building neural networks
-3.Scikit-Learn: For ensemble learning methods and model evaluation
-5.Jupyter Notebook/Google Colab: Execution and code demonstration platforms
-6.Data Manipulation & Visualization: Matplotlib, NumPy, Pandas
+1. **TensorFlow**: Deep learning framework
+2. **Keras**: Simplifies building neural networks
+3. **Scikit-Learn**: For ensemble learning methods and model evaluation
+4. **Jupyter Notebook/Google Colab**: Execution and code demonstration platforms
+5. **Data Manipulation & Visualization**: Matplotlib, NumPy, Pandas
 
 ```bash
 pip install tensorflow keras scikit-learn pandas numpy matplotlib seaborn
@@ -22,50 +23,51 @@ pip install tensorflow keras scikit-learn pandas numpy matplotlib seaborn
   
 ## ⚙️ Project Setup and Execution
 
-- Clone the Repository: Download or clone this repository to your local system.
-```bash
-git clone https://github.com/yourusername/ImageInferno.git
-cd ImageInferno
-```
-- Download the Dataset:
-Download the dataset from Kaggle or specified source.
-Place the images in a folder named images within the project directory, with metadata in metadata.csv.
+- **Clone the Repository**: Download or clone this repository to your local system.
+    ```bash
+    git clone https://github.com/yourusername/ImageInferno.git
+    cd ImageInferno
+    ```
 
-- Set Up Virtual Environment (Optional): It’s recommended to use a virtual environment to manage dependencies.
+- **Download the Dataset**:  
+  Download the dataset from Kaggle or the specified source. Place the images in a folder named `images` within the project directory, with metadata in `metadata.csv`.
 
-```bash
-python -m venv inferno_env
-source inferno_env/bin/activate  # MacOS/Linux
-inferno_env\Scripts\activate  # Windows
-```
-- Jupyter Notebook: If using Jupyter Notebook, start it within the project directory:
-  ```bash
-  jupyter notebook
-  ```
+- **Set Up Virtual Environment (Optional)**: It’s recommended to use a virtual environment to manage dependencies.
+    ```bash
+    python -m venv inferno_env
+    source inferno_env/bin/activate  # MacOS/Linux
+    inferno_env\Scripts\activate  # Windows
+    ```
 
-- Google Colab: Alternatively, you can upload the code files to Google Colab, where dependencies can be installed directly in Colab’s environment.
+- **Jupyter Notebook**: If using Jupyter Notebook, start it within the project directory:
+    ```bash
+    jupyter notebook
+    ```
+
+- **Google Colab**: Alternatively, you can upload the code files to Google Colab, where dependencies can be installed directly in Colab’s environment.
 
 ## Instructions to Run:
 
-- Data Preprocessing: Load and preprocess the data.
+- **Data Preprocessing**: Load and preprocess the data.  
   Execute the Data Collection and Preparation code cells to load images and metadata, clean the data, and resize images.
-  
-- Feature Extraction Using CNN: Run the feature extraction cells to generate feature vectors for each image.
+
+- **Feature Extraction Using CNN**: Run the feature extraction cells to generate feature vectors for each image.  
   Feature vectors are stored for faster similarity searches.
 
-- Model Training:
+- **Model Training**:  
   Fine-tune the ResNet50 architecture if necessary and train the model for improved performance. Evaluate the model’s performance using the training and validation metrics.
- 
-- Recommendation Generation:
+
+- **Recommendation Generation**:  
   Use the user-uploaded image to generate recommendations by computing feature similarity with the dataset images.
 
-- Evaluation:
+- **Evaluation**:  
   Run the evaluation cells to generate metrics such as precision, recall, Top-k accuracy, and confusion matrix.
 
-- Real-Time Recommendation Execution:
+- **Real-Time Recommendation Execution**:  
   Upload an image via the user interface (UI), preprocess it, and run the recommendation process to get fashion suggestions based on the user-uploaded image.
-  Model Saving: Save the trained model and feature vectors for future use or deployment.
 
+- **Model Saving**:  
+  Save the trained model and feature vectors for future use or deployment.
 
   ### Jupyter Notebook
   Open your terminal and execute the following commands:
