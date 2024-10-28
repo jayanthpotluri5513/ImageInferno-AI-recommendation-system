@@ -1,4 +1,4 @@
-# Deceptive news sequencing using LSTM
+# ImageInferno-AI-recommendation-system
 ImageInferno is an advanced AI-driven platform that delivers personalized fashion trend recommendations to users based on real-time data analysis and deep learning algorithms. It’s built to provide an engaging user experience through accurate suggestions that align with the latest fashion trends. Using advanced CNN architectures and real-time data processing, ImageInferno delivers recommendations that align with the latest fashion trends and user preferences.
 
 ## 📁 Dataset
